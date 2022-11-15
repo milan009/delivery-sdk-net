@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32407.343
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kontent.Ai.Delivery", "Kontent.Ai.Delivery\Kontent.Ai.Delivery.csproj", "{742B4C41-1C0E-40BC-8841-C236C3FF7910}"
 EndProject
@@ -32,7 +32,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kontent.Ai.Delivery.Extensi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kontent.Ai.Delivery.Extensions.DependencyInjection.Tests", "Kontent.Ai.Delivery.Extensions.DependencyInjection.Tests\Kontent.Ai.Delivery.Extensions.DependencyInjection.Tests.csproj", "{1582662E-39EA-426F-AE11-AC10E87B4791}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kontent.Ai.Delivery.Abstractions.Tests", "Kontent.Ai.Delivery.Abstractions.Tests\Kontent.Ai.Delivery.Abstractions.Tests.csproj", "{F82D45A6-B0F5-4E40-A43B-4AFFF23EAF96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kontent.Ai.Delivery.Abstractions.Tests", "Kontent.Ai.Delivery.Abstractions.Tests\Kontent.Ai.Delivery.Abstractions.Tests.csproj", "{F82D45A6-B0F5-4E40-A43B-4AFFF23EAF96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliverSDKClientApp", "DeliverSDKClientApp\DeliverSDKClientApp.csproj", "{9646AEA7-2757-4799-8016-420E91559976}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -92,6 +94,10 @@ Global
 		{F82D45A6-B0F5-4E40-A43B-4AFFF23EAF96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F82D45A6-B0F5-4E40-A43B-4AFFF23EAF96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F82D45A6-B0F5-4E40-A43B-4AFFF23EAF96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9646AEA7-2757-4799-8016-420E91559976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9646AEA7-2757-4799-8016-420E91559976}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9646AEA7-2757-4799-8016-420E91559976}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9646AEA7-2757-4799-8016-420E91559976}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
