@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kontent.Ai.Delivery.Abstractions.Tests\Kontent.Ai.Delivery.Abstractions.Tests.csproj" />
+    <ProjectReference Include="..\Kontent.Ai.Delivery.Abstractions\Kontent.Ai.Delivery.Abstractions.csproj" />
+    <ProjectReference Include="..\Kontent.Ai.Delivery.Benchmarks\Kontent.Ai.Delivery.Benchmarks.csproj" />
+    <ProjectReference Include="..\Kontent.Ai.Delivery.Caching.Tests\Kontent.Ai.Delivery.Caching.Tests.csproj" />
+    <ProjectReference Include="..\Kontent.Ai.Delivery.Caching\Kontent.Ai.Delivery.Caching.csproj" />
+    <ProjectReference Include="..\Kontent.Ai.Delivery.Extensions.DependencyInjection.Tests\Kontent.Ai.Delivery.Extensions.DependencyInjection.Tests.csproj" />
+    <ProjectReference Include="..\Kontent.Ai.Delivery.Extensions.DependencyInjection\Kontent.Ai.Delivery.Extensions.DependencyInjection.csproj" />
+    <ProjectReference Include="..\Kontent.Ai.Delivery.Rx.Tests\Kontent.Ai.Delivery.Rx.Tests.csproj" />
+    <ProjectReference Include="..\Kontent.Ai.Delivery.Rx\Kontent.Ai.Delivery.Rx.csproj" />
+    <ProjectReference Include="..\Kontent.Ai.Delivery.Tests\Kontent.Ai.Delivery.Tests.csproj" />
+    <ProjectReference Include="..\Kontent.Ai.Delivery\Kontent.Ai.Delivery.csproj" />
+    <ProjectReference Include="..\Kontent.Ai.Urls.Tests\Kontent.Ai.Urls.Tests.csproj" />
+    <ProjectReference Include="..\Kontent.Ai.Urls\Kontent.Ai.Urls.csproj" />
+  </ItemGroup>
+
+</Project>
